@@ -1,0 +1,39 @@
+String f_name=request.getParameter("firstname").toString();
+        String l_name=request.getParameter("lastname").toString();
+        String gender=request.getParameter("gender").toString();
+        String address=request.getParameter("address").toString();
+        String city=request.getParameter("city").toString();
+        String college=request.getParameter("college").toString();
+        String branch=request.getParameter("branch").toString();
+        String mobile=request.getParameter("mobilenumber").toString();
+        String email=request.getParameter("email").toString();
+        String password=request.getParameter("password").toString();
+        String pro_pic=request.getParameter("proPic").toString();
+        out.write(pro_pic);
+
+
+
+
+
+
+
+
+
+<div class="well">
+					<h4>Select Field</h4>
+					<form>
+                                             <%  
+             while(rs.next())
+               {
+               %>
+				            <label class="checkbox">
+					      <input type="checkbox" value="<%=rs.getString(1)%>"/>
+                                              	<%=rs.getString(1)%>
+     </label>
+<%
+               }rs.close();
+%>
+						
+						
+					</form>
+				</div>

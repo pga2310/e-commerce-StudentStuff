@@ -1,0 +1,50 @@
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{ -moz-border-radius: 6px; -webkit-radius:6px; -khtml-radius:6px; border-radius:6px;}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{ -moz-border-radius: none; -webkit-border:none; -khtml-border:none; border:none;}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{ -moz-border-radius: none; -webkit-border:none; -khtml-border:none; border:none;}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl{ -moz-border-radius: none; -webkit-border:none; -khtml-border:none; border:none;}
+.ui-widget-content{background:none;padding:0}
+.ui-dialog{padding:0px;}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius: none; -webkit-border:none; -khtml-border:none; border:none; background:#fff;}
+.ui-widget-header { background:url(images/top-dropdown-hover-bg-ta.png) 50% 50% repeat-x;font: bold 16px/40px Verdana, Geneva, sans-serif;
+color: #4b4b4b;}
+.ui-dialog .ui-dialog-titlebar { padding:0!important; position: relative!important;}
+.ui-dialog .ui-dialog-title { padding-left:10px;}
+.ui-dialog .ui-dialog-titlebar-close{background:none;}
+.ui-dialog .ui-dialog-titlebar-close { top:-50%;}
+.ui-dialog .ui-dialog-content{padding: .1em .9em; }
+.ui-dialog .ui-dialog-buttonpane button{margin:0 10px 0 0; min-width: 141px;}
+.ui-state-default, .ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;color:#fff;}
+.ui-button .ui-button-text {line-height:100%; color:#fff;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ height:37px;}
+.ui-widget-header .ui-icon {background-image: url(images/x.png)!important; height: 26px;
+width: 24px;}
+
+.ui-icon-closethick { background-position:0 0; }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image:  url(images/x.png);}
+.ui-widget select, .ui-widget textarea, .ui-widget button {    font:normal 15px/30px Verdana, Geneva, sans-serif;-webkit-appearance: none;min-width: 140px;}
+.ui-accordion .ui-accordion-content{padding:10px 0;}
+.ui-dialog .ui-dialog-titlebar-close{
+right: -19px;
+margin: 7px 0 0 0;
+}
+.ui-accordion .ui-accordion-header{padding:0;}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 0 solid #fbd850; background: #ffffff url(images/ui-bg_glass_100_fdf5ce_1x400-ta.png) 50% 50% repeat-x; font-weight: bold; color:#fff; }
+.ui-button-text-only .ui-button-text{ color:#fff;}
+
+/* .ui-widget-content .ui-state-default{background: #ccc;
+border: 1px solid #000;
+line-height: 33px; font-weight:normal;color:#000;}
+ */.ui-datepicker table {margin:0 0 .2em .2em!important; width: 98%;}
+.ui-state-default, .ui-widget-content .ui-state-default{
+border: solid 1px #8d9091;
+height: auto;
+text-align: center;
+line-height: 15px; color:#fff;font: normal 15px arial; width:30px;}
+.ui-datepicker select.ui-datepicker-month{background: transparent;}
+.ui-widget select, .ui-widget-content{border: solid 1px #ccc;}
+.ui-widget-content{padding:5px;}
+.ui-datepicker{border: solid 1px #8996a0!important;}
+.ui-state-default{ width:25px!important;}
+.ui-datepicker .ui-datepicker-header{border: solid 1px #8996a0!important;}
