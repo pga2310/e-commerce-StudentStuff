@@ -1,1 +1,1 @@
-# e-commerce-StudentStuff
+# E-commerce-StudentStuff
